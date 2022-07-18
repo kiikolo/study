@@ -66,7 +66,7 @@ git log可以看到修改日志，太长要记得拉长终端显示的框否则�
 git reste --hard commit +某一次的提交ID
 
 令其可以切换不同版本：
-    创建不同分支
+    创建不同分支,创建完要记得提交发布分布
         git branch +分支名
         git branch 0.2
     查看不同分支：
