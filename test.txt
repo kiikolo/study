@@ -31,6 +31,8 @@ cd..
     3.保存提交记录
     (会自动打开vim编辑器,按i/a打字,esc退出编辑模式,:wq保存退出)
     git commit
+    写提交说明的简化版操作（会跳过vim编辑）
+    git commit -m "第二次提交"
 
     4.查看提交信息
     git log
