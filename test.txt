@@ -73,4 +73,4 @@ git reste --hard commit +某一次的提交ID
         git branch -a
     切换分支：
         git checkout 分支名
-2.0  
+2.0 
