@@ -1,0 +1,33 @@
+Git使用指南
+终端中
+展示目录下文件：
+ls
+
+退回上一级：
+cd..
+
+基本配置：
+    显示Git版本号：
+    git version 
+
+    全局（global）配置（config）用户名为guoxuefei：
+    git config --global user.name "guoxuefei"   
+
+    全局（global）配置（config）用户邮箱为921769581@qq.com：
+    git config --global user.email "921769581@qq.com"
+
+版本的保存：
+    1.在当前目录初始化，创建一个.git隐藏文件夹，
+    该文件夹会保存我们文件的每个git版本记录和变化，
+    git init
+
+    2.初始化为完后，版本还没有记录，要使用如下指令把文件加入git版本控制系统，暂时保存。
+    单个：
+        git add 带后缀的文件名
+        git add test.txt
+    多个(当前目录全部,注意空格)：
+    git add .
+
+    3.保存提交记录
+
+    
