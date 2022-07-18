@@ -62,4 +62,15 @@ cd..
 git log可以看到修改日志，太长要记得拉长终端显示的框否则可能有点问题
 
 
-    
+回退到某个版本(重置模式：--hard（硬重置，覆盖所有变更（还有soft/mix））)：
+git reste --hard commit +某一次的提交ID
+
+令其可以切换不同版本：
+    创建不同分支
+        git branch +分支名
+        git branch 0.2
+    查看不同分支：
+        git branch -a
+    切换分支：
+        git checkout 分支名
+v0.3   
