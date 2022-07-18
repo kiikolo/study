@@ -16,7 +16,7 @@ cd..
     全局（global）配置（config）用户邮箱为921769581@qq.com：
     git config --global user.email "921769581@qq.com"
 
-版本的保存：
+版本的保存（1-2-3步）：
     1.在当前目录初始化，创建一个.git隐藏文件夹，
     该文件夹会保存我们文件的每个git版本记录和变化，
     git init
@@ -29,5 +29,24 @@ cd..
     git add .
 
     3.保存提交记录
+    (会自动打开vim编辑器,按i/a打字,esc退出编辑模式,:wq保存退出)
+    git commit
+
+    4.查看提交信息
+    git log
+    显示例子：
+        commit 54268cf9e312f4ba1408083211c6421b4f3650e6 (HEAD -> master)
+        //随机id：54268cf9e312f4ba1408083211c6421b4f3650e6
+        Author: guoxuefei <921769581@qq.com>
+        //作者信息
+        Date:   Mon Jul 18 20:32:59 2022 +0800
+        //提交时间
+        
+         第一次提交
+         //刚刚写的提交说明
+
+新增文件：绿色
+修改文件：橙色
+
 
     
